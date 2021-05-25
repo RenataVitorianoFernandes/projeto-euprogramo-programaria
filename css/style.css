@@ -4,6 +4,7 @@ body {
     background-color: #8a71c9;
     color: #ffffff;
     margin: 0px;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -25,8 +26,12 @@ h2 {
 
 section {
     background-color: #8a71c9;
-    max-width: 60%;
+    width: 60%;
     margin: 0 auto;
+}
+
+section section{
+    width: 100%;
 }
 
 h1 {
@@ -73,10 +78,15 @@ a {
     margin: 0 auto;
 }
 
-.principal li{
+.principal li {
     display: inline-block;
-    line-height: 2,5;
+    line-height: 2, 5;
     margin: 0 89px;
 }
 
-
+button{
+    background-color: #41f341;
+    border: 1px solid #ffffff;
+    padding: 2px 20px;
+    border-radius: 3px;
+}
