@@ -4,7 +4,7 @@ body {
     background-color: #8a71c9;
     color: #ffffff;
     margin: 0px;
-    margin-bottom: 30px;
+    margin: 0px 0px 30px 0px;
 }
 
 h2 {
@@ -30,7 +30,7 @@ section {
     margin: 0 auto;
 }
 
-section section{
+section section {
     width: 100%;
 }
 
@@ -84,9 +84,9 @@ a {
     margin: 0 89px;
 }
 
-button{
+button {
     background-color: #41f341;
-    border: 1px solid #ffffff;
+    border: 1px solid transparent;
     padding: 2px 20px;
     border-radius: 3px;
 }
